@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+<style>
+th, td{
+    padding: 15px;
+}
+</style>
+</head>
+<body>
+    <h1>Horario SMX2</h1>
+    <style>
+        table {
+            width: 100%;
+            text-align:center; 
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        h1 {
+            text-align: center;
+        }
+        
+        .sintesis2 {
+            background-color: yellowgreen;
+        }
+
+        .serveis {
+            background-color: orange;
+        }
+
+        .sintesis1 {
+            background-color: peachpuff;
+        }
+
+        .ingles {
+            background-color: lightgreen;
+        }
+
+        .web {
+            background-color: cornflowerblue;
+        }
+
+        .noclase {
+            background-color: gainsboro;
+        }
+
+        #tutoria {
+            background-color: turquoise;
+        }
+
+        #seguridad {
+            background-color: plum;
+        }
+    </style>
+ 
+    <style>
+        th, td {
+            border: 1px solid black;  
+        }
+    </style>
+    <table>
+        <thead>
+        <tr>
+            <th> </th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+        <tbody>
+            <tr>
+            <td>15H-15:55H </td>
+            <td rowspan="2">M4.Op.Xa </td>
+            <td rowspan="2" class="sintesis2">M12.2 Sintesis </td>
+            <td rowspan="2" class="noclase"> </td>
+            <td rowspan="2" class="serveis">M7.Serveis </td>
+            <td rowspan="2" class="web">M8 web </td>
+            </tr>
+ 
+            <tr>
+                <td>15:55H-16:50H </td>
+            </tr>
+           
+            <tr>
+                <td>16:50H-17:45H </td>
+                <td rowspan="2" class="sintesis1">M12.1 Sintesis</td>
+                <td rowspan="2">M4.Op.Xa </td>
+                <td class="ingles">M11 Ingles</td>
+                <td class="sintesis1">M12.1 Sintesis </td>
+                <td class="ingles">M11 Ingles</td>
+            </tr>
+ 
+            <tr>
+                <td>17:45H-18:40H</td>
+                <td class="web">M8 web</td>
+                <td class="ingles">M11 Ingles</td>
+                <td id="tutoria">Tutoria</td>
+            </tr>
+            <tr>
+                <td>18:40-19:10H</td>
+                <td colspan="5">Patio</td>
+            </tr>
+            <tr>
+                <td>19:10H-20:05H</td>
+                <td rowspan="2" class="serveis">M7 Serveis</td>
+                <td rowspan="2" id="seguridad">M6 Seguridad</td>
+                <td rowspan="2" class="sintesis2">M12.2 Sintesis </td>
+                <td class="serveis">M7 Servicios</td>
+                <td rowspan="2" class="noclase"> </td>
+            </tr>
+            <tr>
+                <td>20:05H-21:00H</td>
+                <td> </td>
+            </tr>
+        </tbody>
+    </thead>
+    </table>
+ 
+</body>
+</html>
+
+<!--Style sirve para definir como se veran algunos elementos -->
+<!--Padding sirve para definir la posicion y tamaño del contenido -->
+<!-- Table sirve para definir una tabla -->
+<!-- Width sirve para especificar el ancho -->
+<!-- Text-align sirve para selecionar donde queremos que se coloque todo, centrado, derecha, izquierda-->
+<!-- Border sirve para definir en una única regla todos los bordes de los elementos seleccionados -->
+<!-- Border-collapse sirve para fusionar los bordes--->
+<!--Backgroun-color sirve para selecionar el color de fondo-->
+<!-- Td sirve para hacer como el 'encabezado' de la tabla-->
+<!--Th sirve para definir el cuerpo de la tabla-->
+<!--Tr sirve para definir las tablas que habrá-->
+<!--Rowspan sirve para fusionar celdas de una misma columna-->
+<!--Class es un selector el cual permite aplicar estilos a todos los elementos que compartan la misma clase-->
